@@ -8,7 +8,6 @@ Modernarta
 html,
 body,
 div,
-span,
 applet,
 object,
 iframe,
@@ -21,7 +20,6 @@ h6,
 p,
 blockquote,
 pre,
-a,
 abbr,
 acronym,
 address,
@@ -31,7 +29,6 @@ code,
 del,
 dfn,
 em,
-img,
 ins,
 kbd,
 q,
@@ -52,8 +49,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
-li,
 fieldset,
 form,
 label,
@@ -82,14 +77,12 @@ section,
 summary,
 time,
 mark,
-img,
 audio,
 video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -105,14 +98,7 @@ section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
 
-ol,
-ul {
-	list-style: none;
-}
 
 blockquote,
 q {
@@ -132,9 +118,6 @@ table {
 	border-spacing: 0;
 }
 
-body {
-	-webkit-text-size-adjust: none;
-}
 
 mark {
 	background-color: transparent;
@@ -166,16 +149,9 @@ html {
 }
 
 *,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
 
-body {
-	background: #2e3842;
-}
 
-body.is-preload *,
+/* body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
 	-moz-animation: none !important;
@@ -186,19 +162,19 @@ body.is-preload *:after {
 	-webkit-transition: none !important;
 	-ms-transition: none !important;
 	transition: none !important;
-}
+} */
 
-body,
+/* body,
 input,
 select,
 textarea {
-	color: #fff;
+	color: #d9ba85;;
 	font-family: "Open Sans", Helvetica, sans-serif;
 	font-size: 15pt;
 	font-weight: 400;
 	letter-spacing: 0.075em;
 	line-height: 1.65em;
-}
+} 
 
 @media screen and (max-width: 1680px) {
 
@@ -233,16 +209,7 @@ textarea {
 	}
 
 }
-
-a {
-	-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	transition: color 0.2s ease, border-bottom-color 0.2s ease;
-	border-bottom: dotted 1px;
-	color: inherit;
-	text-decoration: none;
-}
+*/
 
 a:hover {
 	border-bottom-color: transparent;
@@ -269,12 +236,14 @@ h3,
 h4,
 h5,
 h6 {
-	color: #fff;
+	color: #cda45e;
 	font-weight: 800;
 	letter-spacing: 0.225em;
 	line-height: 1em;
 	margin: 0 0 1em 0;
 	text-transform: uppercase;
+	font-family:  "Poppins", sans-serif;
+    font-style: oblique;
 }
 
 h1 a,
@@ -2219,10 +2188,10 @@ input[type="radio"]+label:before {
 	position: relative;
 }
 
-.image img {
+/* .image img {
 	border-radius: 3px;
 	display: block;
-}
+} */
 
 .image.left {
 	float: left;
@@ -2268,15 +2237,7 @@ ol li {
 	padding-left: 0.25em;
 }
 
-ul {
-	list-style: disc;
-	margin: 0 0 2em 0;
-	padding-left: 1em;
-}
 
-ul li {
-	padding-left: 0.5em;
-}
 
 ul.alt {
 	list-style: none;
@@ -2796,21 +2757,22 @@ button:disabled,
 }
 
 .spotlight .image {
-	-moz-order: 1;
-	-webkit-order: 1;
-	-ms-order: 1;
-	order: 1;
+	-moz-order: 0;
+	-webkit-order: 0;
+	-ms-order: 0;
+	order: 0;
 	border-radius: 0;
 	width: 40%;
 }
 
 .spotlight .image img {
 	border-radius: 800px;
+	margin-left: -120px;
 	width: 84%;
 }
 
 .spotlight .content {
-	padding: 2em 4em 0.1em 4em;
+	
 	-moz-order: 2;
 	-webkit-order: 2;
 	-ms-order: 2;
@@ -2827,7 +2789,7 @@ button:disabled,
 	-ms-flex-direction: row-reverse;
 	flex-direction: row-reverse;
 }
-
+/* 
 .spotlight:nth-child(1) {
 	background-color: rgba(0, 0, 0, 0.075);
 }
@@ -2866,7 +2828,7 @@ button:disabled,
 
 .spotlight:nth-child(10) {
 	background-color: rgba(0, 0, 0, 0.75);
-}
+} */
 
 @media screen and (max-width: 1280px) {
 
@@ -3144,7 +3106,7 @@ button:disabled,
 	background: rgba(255, 255, 255, 0.075);
 }
 
-/* .wrapper.style3 header p {
+.wrapper.style3 header p {
 	color: #b9bad4;
 }
 
@@ -3159,7 +3121,7 @@ button:disabled,
 .wrapper.style3 header.major p {
 	color: #d3d4e4;
 }
- */
+ 
 .wrapper.style3 label {
 	color: #ffffff;
 }
@@ -3316,7 +3278,7 @@ button:disabled,
 	background: rgba(0, 0, 0, 0.0375);
 }
 
-/* .wrapper.style5 header p {
+.wrapper.style5 header p {
 	color: #8E8892;
 }
 
@@ -3330,7 +3292,7 @@ button:disabled,
 
 .wrapper.style5 header.major p {
 	color: #4E4852;
-}*/
+}
 
 .wrapper.style5 label {
 	color: #2E3842;
@@ -3536,7 +3498,6 @@ button:disabled,
 
 #menu ul>li>a {
 	border: 0;
-	color: inherit;
 	display: block;
 	font-size: 0.8em;
 	letter-spacing: 0.225em;
@@ -3861,24 +3822,25 @@ body.is-preload #banner:after {
 
 #main>header {
 	padding: 12em 0 10em 0;
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+	background-image: -moz-linear-gradient(url("images/banner.jpg"));
+	background-image: -webkit-linear-gradient(url("images/banner.jpg"));
+	background-image: -ms-linear-gradient(top,url("images/banner.jpg"));
+	background-image: linear-gradient(top, url("images/banner.jpg"));
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+
 }
 
 #main>header h2 {
 	font-size: 1.75em;
 	margin: 0 0 0.5em 0;
+	font-family: "Playfair Display", serif;
 }
 
 #main>header p {
-	color: inherit;
 	letter-spacing: 0.225em;
 	text-transform: uppercase;
 	top: 0;
@@ -4011,10 +3973,10 @@ body.is-mobile #main>header {
 /* Landing */
 
 body.landing #page-wrapper {
-	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
-	background-image: linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/banner.jpg");
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./images/banner.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
