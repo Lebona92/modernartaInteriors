@@ -7,7 +7,6 @@ Modernarta
 
 html,
 body,
-div,
 applet,
 object,
 iframe,
@@ -61,7 +60,6 @@ thead,
 tr,
 th,
 td,
-article,
 aside,
 canvas,
 details,
@@ -73,7 +71,6 @@ hgroup,
 menu,
 output,
 ruby,
-section,
 summary,
 time,
 mark,
@@ -2765,9 +2762,16 @@ button:disabled,
 	width: 40%;
 }
 
-.spotlight .image img {
+/* .spotlight .image img {
 	border-radius: 0px;
 	margin-left: 100px;
+	width: 60%;
+} */
+
+
+#spotlight .image img {
+	border-radius: 0px;
+	margin-left: -100px;
 	width: 60%;
 }
 
@@ -3918,7 +3922,6 @@ body.is-mobile #main>header {
 	letter-spacing: 0.225em;
 	list-style: none;
 	padding: 0;
-	text-transform: uppercase;
 }
 
 #footer .copyright li {
@@ -3970,6 +3973,7 @@ body.is-mobile #main>header {
 	}
 
 }
+
 
 /* Landing */
 
