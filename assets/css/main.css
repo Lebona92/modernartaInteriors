@@ -2766,9 +2766,9 @@ button:disabled,
 }
 
 .spotlight .image img {
-	border-radius: 800px;
-	margin-left: -120px;
-	width: 84%;
+	border-radius: 0px;
+	margin-left: 100px;
+	width: 60%;
 }
 
 .spotlight .content {
@@ -3844,6 +3844,7 @@ body.is-preload #banner:after {
 	letter-spacing: 0.225em;
 	text-transform: uppercase;
 	top: 0;
+	color: #1d242a;
 }
 
 #main>header p a {
