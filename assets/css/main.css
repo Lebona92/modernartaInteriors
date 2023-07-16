@@ -2771,8 +2771,9 @@ button:disabled,
 
 #spotlight .image img {
 	border-radius: 0px;
-	margin-left: -100px;
-	width: 60%;
+    margin-left: 270px;
+	margin-bottom: 200px;
+    width: 80%;
 }
 
 .spotlight .content {
