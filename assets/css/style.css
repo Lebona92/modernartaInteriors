@@ -520,6 +520,16 @@ h6 {
   font-style: italic;
 }
 
+h2 {
+  color: #eee;
+  margin-bottom: 10px 0 0 0;
+  font-size: 22px;
+  font-style: italic;
+  font-size: 1.75em;
+	margin: 0 0 0.5em 0;
+	font-family: "Playfair Display", serif;
+}
+
 #hero .btns {
   margin-top: 30px;
 }

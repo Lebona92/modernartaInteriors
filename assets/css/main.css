@@ -229,8 +229,7 @@ p {
 	margin: 0 0 2em 0;
 }
 
-h1,
-h2,
+
 h3,
 h5,
 h6 {
@@ -3840,11 +3839,11 @@ body.is-preload #banner:after {
 
 }
 
-#main>header h2 {
+#main>header h3 {
 	font-size: 1.75em;
 	margin: 0 0 0.5em 0;
 	font-family: "Playfair Display", serif;
-}
+} 
 
 #main>header p {
 	letter-spacing: 0.225em;
