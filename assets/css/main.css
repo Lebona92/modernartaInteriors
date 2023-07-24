@@ -90,7 +90,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 hgroup,
 menu,
 section {
@@ -3991,7 +3990,7 @@ body.landing #page-wrapper {
 }
 
 body.landing #footer {
-	background-color: rgba(106, 107, 108, 0.779);
+	background-color: hwb(210 42% 58% / 0.779);
 }
 
 body.is-mobile.landing #page-wrapper {
