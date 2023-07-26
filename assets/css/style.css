@@ -26,8 +26,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: "Playfair Display", serif;
 }
 
@@ -518,7 +517,7 @@ h6 {
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
   font-style: italic;
-  
+
 }
 
 #hero .btns {
@@ -1470,6 +1469,20 @@ h6 {
   font-size: 20px;
 }
 
+.features h5 {
+  font-size: 1.75em;
+  margin: 0 0 0.5em 0;
+  font-family: "Playfair Display", serif;
+  color: #cda45e;
+  font-weight: 800;
+  letter-spacing: 0.225em;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-style: oblique;
+}
+
 /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
@@ -1662,7 +1675,7 @@ Services Style
   margin-bottom: 30px;
   margin-right: 80px;
   transition: all .4s;
-  font-family:  "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .services .service-item .main-.container {
