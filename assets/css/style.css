@@ -1469,7 +1469,7 @@ h5 {
   font-size: 20px;
 }
 
-.features h5 {
+#landing-feat h6 {
   font-size: 1.75em;
   margin: 0 0 0.5em 0;
   font-family: "Playfair Display", serif;

@@ -2657,15 +2657,15 @@ button:disabled,
 }
 
 .features li:nth-child(2) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0.050);
 }
 
 .features li:nth-child(3) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0.050);
 }
 
 .features li:nth-child(4) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .features li:nth-child(5) {
@@ -2673,11 +2673,11 @@ button:disabled,
 }
 
 .features li:nth-child(6) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0.050);
 }
 
 .features li:nth-child(7) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0.050);
 }
 
 .features li:nth-child(8) {
@@ -2689,7 +2689,7 @@ button:disabled,
 }
 
 .features li:nth-child(10) {
-	background-color: rgba(0, 0, 0, 0.035);
+	background-color: rgba(0, 0, 0, 0.050);
 }
 
 .features li:before {
