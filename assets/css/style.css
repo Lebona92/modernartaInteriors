@@ -205,7 +205,7 @@ h5 {
 
 #header .logo img {
   max-height: 80px;
-  text-align: center
+  flex-grow: 1;
 }
 
 
@@ -4073,6 +4073,7 @@ p {
 }
 
 
+
 .container--nm {
   margin: 0 auto
 }
@@ -4098,14 +4099,6 @@ p {
 .container:before {
   content: " ";
   display: block
-}
-
-.container:after {
-  clear: both
-}
-
-.container {
-  *zoom: 1
 }
 
 .main {
