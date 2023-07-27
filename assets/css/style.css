@@ -209,6 +209,8 @@ h5 {
 }
 
 
+
+
 /*--------------------------------------------------------------
   # Book a table button Menu
   --------------------------------------------------------------*/
@@ -3211,6 +3213,10 @@ p {
 
 .promo__content__inner .more-content {
   display: none
+}
+
+#image_landing img {
+  max-width: 100%;
 }
 
 @media screen and (max-width: 480px) {
