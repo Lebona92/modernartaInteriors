@@ -3856,7 +3856,6 @@ body.is-preload #banner:after {
 
 #main>header p {
 	letter-spacing: 0.225em;
-	text-transform: uppercase;
 	top: 0;
 	color: #1d242a;
 }
