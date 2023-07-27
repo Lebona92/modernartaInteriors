@@ -3583,6 +3583,11 @@ p {
   background-color: #eae9e5
 }
 
+#content-maso p {
+  font-style: oblique;
+  font-family: "Playfair Display", serif;
+}
+
 .promos__content__inner {
   display: block;
   max-width: 500px;
