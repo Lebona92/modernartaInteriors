@@ -263,7 +263,7 @@ h5 {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding-right: 18%;
+  padding-right: 13%;
   padding-left: 4%;
 }
 
@@ -500,7 +500,7 @@ h5 {
 
 #hero h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: xpx;
   font-weight: bold;
   line-height: 40px;
   color: #ffd638;
