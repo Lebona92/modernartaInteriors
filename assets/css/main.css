@@ -9,11 +9,9 @@ Modernarta interiors
 
 
 html,
-body,
 applet,
 object,
 iframe,
-h1,
 h3,
 h5,
 h6,
@@ -148,7 +146,7 @@ html {
 *,
 
 
-/* body.is-preload *,
+body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
 	-moz-animation: none !important;
@@ -159,7 +157,7 @@ body.is-preload *:after {
 	-webkit-transition: none !important;
 	-ms-transition: none !important;
 	transition: none !important;
-} */
+}
 
 /* body,
 input,
@@ -550,14 +548,14 @@ pre code {
 	padding-top: 0.75em;
 }
 
-.row {
+/* .row {
 	margin-top: 0;
 	margin-left: -1.5em;
 }
 
 .row>* {
 	padding: 0 0 0 1.5em;
-}
+} */
 
 .row.gtr-uniform {
 	margin-top: -1.5em;

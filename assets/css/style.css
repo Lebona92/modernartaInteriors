@@ -2069,11 +2069,11 @@ body {
   /* margin: 0; */
   /* background-color: #fff;
   color: #78716e; */
-  font-size: .875rem;
-  line-height: 1.875rem;
+  /* font-size: .875rem;
+  line-height: 1.875rem; */
   /* font-family: raleway,sans-serif; */
-  text-align: left;
-  letter-spacing: 2px;
+  /* text-align: left;
+  letter-spacing: 2px; */
 
 }
 
@@ -4072,12 +4072,6 @@ p {
   }
 }
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto 10px;
-  padding: 0 10px
-}
 
 .container--nm {
   margin: 0 auto
