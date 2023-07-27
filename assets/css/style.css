@@ -3219,6 +3219,12 @@ p {
   max-width: 100%;
 }
 
+#image_maso img {
+  max-width: 100%;
+  border-radius: 0px;
+  margin-left: 943px;
+  transform: scale(.7) translate(1%, -7%);
+}
 @media screen and (max-width: 480px) {
   .promo__content__inner .title--large {
     font-size: 2.375rem;
@@ -3552,6 +3558,13 @@ p {
   margin-bottom: 30px
 }
 
+.list {
+  display: table;
+  border-spacing: 150px 0;
+  width: 100%;
+  margin-bottom: 30px
+}
+
 @media screen and (max-width: 680px) {
   .promos__promo {
     display: -ms-flexbox;
@@ -3697,11 +3710,11 @@ p {
   display: block
 }
 
-.promos__image--bg {
+/* .promos__image--bg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%
-}
+} */
 
 .promos__prev-next {
   position: absolute;
